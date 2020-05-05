@@ -4,43 +4,16 @@
         "email": "zdm@softvisio.net",
         "url": "https://bitbucket.org/softvisio/softvisio/issues"
     },
-    "dependencies": {
-        "ajv": ">=6.12.2",
-        "callable-instance": ">=1.0.1",
-        "ejs": ">=3.1.2",
-        "eslint": ">=6.8.0",
-        "json5": ">=2.1.3",
-        "jssha": ">=2.3.1",
-        "prettier": ">=1.19.1",
-        "terser": ">=4.4.3",
-        "uuid": ">=3.3.3",
-        "yaml": ">=1.9.2"
-    },
-    "description": "Softisio Core",
-    "devDependencies": {
-        "@softvisio/eslint-plugin": ">=0.4.0",
-        "babel-eslint": "^10.0.3",
-        "eslint-plugin-babel": ">=5.3.0",
-        "eslint-plugin-vue": ">=6.1.2"
-    },
-    "exports": {
-        ".": "./lib/index.js",
-        "./": "./lib/",
-        "./resources/": "./resources/"
-    },
+    "description": "Softisio",
     "homepage": "https://bitbucket.org/softvisio/softvisio",
     "keywords": [
-        "softvisio",
-        "core"
+        "softvisio"
     ],
     "license": "ISC",
     "name": "softvisio",
     "repository": {
         "type": "git",
         "url": "https://bitbucket.org/softvisio/softvisio.git"
-    },
-    "resolutions": {
-        "@softvisio/eslint-plugin": "portal:../softvisio-eslint-plugin"
     },
     "scripts": {
         "lint": "eslint --fix --ext=.js,.vue bin lib resources",
