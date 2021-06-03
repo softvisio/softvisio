@@ -1,24 +1,24 @@
 {
-    "author": "zdm <zdm@softvisio.net>",
-    "bugs": {
-        "email": "zdm@softvisio.net",
-        "url": "https://bitbucket.org/softvisio/softvisio/issues"
-    },
+    "name": "softvisio",
+    "version": "0.1.1",
     "description": "Softisio",
-    "homepage": "https://bitbucket.org/softvisio/softvisio",
     "keywords": [
         "softvisio"
     ],
-    "license": "ISC",
-    "name": "softvisio",
+    "homepage": "https://github.com/softvisio/softvisio",
+    "bugs": {
+        "url": "https://github.com/softvisio/softvisio/issues",
+        "email": "zdm@softvisio.net"
+    },
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/softvisio/softvisio.git"
+        "url": "https://github.com/softvisio/softvisio.git"
     },
+    "license": "ISC",
+    "author": "zdm <zdm@softvisio.net>",
+    "type": "commonjs",
     "scripts": {
         "lint": "eslint --fix --ext=.js,.vue bin lib resources",
         "publish": "yarn npm publish"
-    },
-    "type": "commonjs",
-    "version": "0.1.1"
+    }
 }
